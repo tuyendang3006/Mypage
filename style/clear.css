@@ -1,0 +1,308 @@
+
+/*-------------------- STYLE GENERAL DE LA PAGE --------------------*/
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+     
+    background-color: #DBDFE6;
+    
+    font-size: 1.1em;
+}
+
+
+#bloc_en_tete {
+    width: 99%;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    
+    border-bottom: 3px groove #666666;
+}
+
+#bloc_en_tete #img_polytech {
+    float: left;
+    position: relative;
+    top: -8px;
+    
+    width: 200px;
+    height: 62px;
+    margin: 5px 15px;
+    
+    background-image: url('img/clear/polytech_marseille.png');
+    background-size: 100% 100%;
+}
+
+#bloc_en_tete #identite_nom {
+    color: #019CDE;
+    font-size: 1.1em;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+#bloc_en_tete a {
+    color: #000000;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+#bloc_en_tete a:hover {
+    text-decoration: underline;
+}
+
+#bloc_en_tete #changer_style {
+    float: right;
+    position: relative;
+    top: -40px;
+    
+    text-align: center;
+    font-size: 1.1em;
+}
+
+#bloc_en_tete #changer_style a {
+    font-size: 1.1em;
+}
+
+
+#bloc_menu {
+    display: table;
+    border-collapse: collapse;
+    
+    width: 98%;
+    height: 50px;
+    margin: 0px auto;
+    
+    background-color: #0090DE;
+}
+
+#bloc_menu a {
+    display: table-cell;
+    width: 25%;
+    
+    text-align: center;
+    vertical-align: middle;
+    
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+#bloc_menu a:hover {
+    background-color: #0060DE;
+    text-decoration: underline;
+}
+
+#bloc_menu a#selection {
+    background-color: #0000CD;
+}
+
+
+#bloc_page {
+    width: 75%;
+    min-height: 550px;
+    margin: 20px auto;
+    padding: 15px;
+    
+    background-color: #B4C8E6;
+    border: 10px double #FFFFFF;
+    border-radius: 20px;
+}
+
+
+#bloc_pied_page {
+    width: 95%;
+    margin: 0px auto;
+    
+    background-color: #B4C8E6;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+    
+    text-align: center;
+}
+
+#bloc_pied_page p {
+    margin: 3px 0px 13px 0px;
+}
+
+#bloc_pied_page img {
+    width: 88px;
+    height: 31px;
+    
+    position: relative;
+    top: 7px;
+    
+    border: 0px;
+}
+
+
+#bloc_page h1 {
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    
+    border-bottom: 1px solid #666666;
+    
+    text-align: center;
+    font-size: 1.6em;
+    font-variant: small-caps;
+}
+
+
+
+/*-------------------- INDEX.HTML --------------------*/
+
+
+#bloc_page p#presentation {
+    text-align: center;
+    line-height: 1.5em;
+}
+
+
+
+/*-------------------- CONTACT.HTML --------------------*/
+
+
+#bloc_page #form_contact {
+    margin-top: 4%;
+    
+    text-align: center;
+}
+
+#bloc_page #form_contact label,
+#bloc_page #form_contact input,
+#bloc_page #form_contact textarea {
+    margin: 1% 0% 1% 1%;
+}
+
+#bloc_page #form_contact label#label_commentaire {
+    display: inline-block;
+    
+    height: 75px;
+    line-height: 75px;
+    vertical-align: top;
+}
+
+#bloc_page #form_contact textarea {
+    width: 30%;
+    height: 75px;
+}
+
+#bloc_page #form_contact input#nom {
+    width: 150px;
+}
+
+#bloc_page #form_contact input#prenom {
+    width: 150px;
+}
+
+#bloc_page #form_contact input#date_naissance {
+    width: 80px;
+}
+
+
+
+/*-------------------- TELECHARGEMENTS.HTML --------------------*/
+
+
+#bloc_page p#telechargements, #bloc_page p#liens {
+    padding: 2%;
+    
+    line-height: 2.0em;
+}
+
+#bloc_page p#telechargements a, #bloc_page p#liens a {
+    color: #000000;
+}
+
+
+
+/*-------------------- CV.HTML --------------------*/
+
+
+#bloc_page h2 {
+    width: 100%;
+    
+    border-bottom: 1px solid #666666;
+    
+    text-indent: 10px;
+    font-size: 1.2em;
+    font-variant: small-caps;
+}
+
+#bloc_page p#telecharger_cv {
+    margin: 0px;
+    
+    text-align: right;
+}
+
+#bloc_page p#telecharger_cv a {
+    color: #000000;
+}
+
+#bloc_page p#identite_cv {
+    margin: auto;
+    padding: 2%;
+    
+    background-color: #DBE1FF;
+    background-image: url('../img/photo_identite.jpg');
+    background-size: 13% 90%;
+    background-position: right center;
+    background-repeat: no-repeat;
+    
+    border-radius: 5px 5px;
+    
+    color: #0060DE;
+    line-height: 1.3em;
+}
+
+#bloc_page p#identite_cv #nom {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#bloc_page p#divers {
+    text-indent: 50px;
+}
+
+#bloc_page table {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 4%;
+    
+    border-collapse: collapse;
+}
+
+#bloc_page table td {
+    padding: 1%;
+    
+    border: 1px solid #000000;
+    
+    line-height: 1.5em;
+}
+
+#bloc_page table td:first-child {
+    width: 20%;
+    
+    text-align: center;
+    color: #0060DE;
+    font-weight: bold;
+}
+
+#bloc_page table td:last-child {
+    padding-left: 2%;
+    
+    font-size: 0.9em;
+}
+
+#bloc_page table td:last-child ul {
+    margin: 0px;
+    
+    list-style-type: circle;
+}
+
+#bloc_page table td:last-child .lieu,
+#bloc_page table td:last-child .langage {
+    font-style: italic;
+}
